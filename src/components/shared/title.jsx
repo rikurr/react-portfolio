@@ -17,6 +17,10 @@ export const CustomTitle = styled.h2`
   color: transparent;
   transition: all 0.2s;
   letter-spacing: 0.4rem;
+  @media screen and (max-width: 800px) {
+  font-size: 1.4rem;
+  padding-bottom: 2rem
+  }
 
   &:hover {
     transform: skewY(3deg) skewX(15deg) scale(1.1);

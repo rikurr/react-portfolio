@@ -6,6 +6,8 @@ export const FooterContainer = styled.div`
   background-color: ${Colors.GREY_DARK};
   padding: 5rem 0;
   font-size: 1rem;
+  display: flex;
+  flex-direction: column;
   text-align: center;
 `;
 
@@ -35,11 +37,9 @@ export const Link = styled.a`
   color: ${Colors.WHITE};
   text-decoration: none;
   display: inline-block;
-  transition: all .2s;
+  transition: all 0.2s;
 `;
 
-export const CopyRightContainer = styled.div`
-
-`;
+export const CopyRightContainer = styled.div``;
 
 export const CopyRight = styled.p``;

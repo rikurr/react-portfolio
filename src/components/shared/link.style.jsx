@@ -10,6 +10,10 @@ export const CustomLink = styled.a`
     transition: all 0.2s;
     width: 50%;
     height: 3.5rem;
+    @media screen and (max-width: 800px) {
+      width: 50%;
+      height: 2rem;
+    }
   }
 
   &:hover {

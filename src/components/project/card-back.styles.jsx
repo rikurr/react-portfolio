@@ -10,16 +10,21 @@ export const CardCta = styled.div`
   flex-direction: column;
   justify-content: space-between;
   text-align: center;
-
 `;
 
 export const ListsBox = styled.div`
   margin-bottom: 2rem;
+  @media screen and (max-width: 800px) {
+    margin-bottom: 0;
+    margin-top: 4rem;
+  }
 `;
 
 export const Lists = styled.ul`
   display: inline-block;
   list-style: none;
+  @media screen and (max-width: 800px) {
+  }
 `;
 
 export const ListsItems = styled.li`
@@ -28,11 +33,21 @@ export const ListsItems = styled.li`
   border-bottom: 1px solid ${Colors.WHITE};
   margin-right: 2rem;
   margin-left: 2rem;
+  @media screen and (max-width: 800px) {
+    font-size: 1rem;
+    display: inline-block;
+    border-bottom: none;
+    margin-right: 1rem;
+    margin-left: 0;
+  }
 `;
 
 export const ProjectLink = styled(CustomLink)`
-  padding-top: 0.7rem;
+  padding-top: 1.2rem;
   justify-items: center;
+  @media screen and (max-width: 800px) {
+    padding-top: 0rem;
+  }
 `;
 
 export const LinkBox = styled.div`
@@ -48,4 +63,8 @@ export const Link = styled.a`
   text-decoration: none;
   display: inline-block;
   transition: all 0.2s;
+`;
+
+export const Span = styled.span`
+  font-size: 1.2rem;
 `;

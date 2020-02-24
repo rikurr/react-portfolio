@@ -39,6 +39,8 @@ export const TextContainer = styled.div`
   top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
+  @media screen and (max-width: 800px) {
+  }
 `;
 
 export const HeaderPrimary = styled.h1`
@@ -53,6 +55,10 @@ export const HeaderTitle = styled.span`
   font-weight: 400;
   letter-spacing: 25px;
   animation: ${moveInLeft} 1s ease-out;
+  @media screen and (max-width: 800px) {
+    letter-spacing: 5px;
+    font-size: 3rem;
+  }
 `;
 
 export const HeaderSub = styled.span`
@@ -61,4 +67,8 @@ export const HeaderSub = styled.span`
   font-weight: 400;
   letter-spacing: 18px;
   animation: ${moveInRight} 1s ease-out;
+  @media screen and (max-width: 800px) {
+    letter-spacing: .5px;
+    font-size: 1rem;
+  }
 `;

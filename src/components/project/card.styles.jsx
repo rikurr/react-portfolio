@@ -80,6 +80,23 @@ export const Card = styled.div`
       ),
       url(${portfolioImg});
   }
+
+  @media screen and (max-width: 800px) {
+    height: auto;
+    border-radius: 3px;
+    background-color: ${Colors.WHITE};
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
+
+    .back {
+      transform: rotateY(0);
+      clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+    }
+
+    &:hover .front {
+      -webkit-transform: rotateY(0);
+      transform: rotateY(0);
+    }
+  }
 `;
 
 export const CardSide = styled.div`
@@ -90,10 +107,17 @@ export const CardSide = styled.div`
   left: 0;
   width: 100%;
   border-radius: 8px;
-  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
   overflow: hidden;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+
+  @media screen and (max-width: 800px) {
+    height: auto;
+    position: relative;
+    box-shadow: none;
+    border-radius: 0;
+  }
 `;
 
 export const BackText = styled.p``;

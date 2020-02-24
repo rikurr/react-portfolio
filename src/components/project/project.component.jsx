@@ -18,7 +18,8 @@ import {
   ListsItems,
   ProjectLink,
   LinkBox,
-  Link
+  Link,
+  Span
 } from "./card-back.styles";
 
 import { ProjectContainer, CardContainer, CardItems } from "./project.styles";
@@ -53,7 +54,7 @@ const Project = () => {
                     target="_blank"
                     rel="noreferrer noopener"
                   >
-                    アプリへ移動
+                    <Span>アプリへ移動</Span>
                   </ProjectLink>
                 </LinkBox>
                 <LinkBox>
@@ -97,12 +98,12 @@ const Project = () => {
                     target="_blank"
                     rel="noreferrer noopener"
                   >
-                    アプリへ移動
+                    <Span>アプリへ移動</Span>
                   </ProjectLink>
                 </LinkBox>
                 <LinkBox>
                   <Link
-                    href="https://react-crwn.herokuapp.com/"
+                    href="https://github.com/riku0329/react_ecshop"
                     target="_blank"
                     rel="noreferrer noopener"
                   >
@@ -118,7 +119,9 @@ const Project = () => {
             <CardSide className="front">
               <CardPicture className="CardPicture__3"></CardPicture>
               <CardHeadding>ポートフォリオサイト</CardHeadding>
-              <CardDetails></CardDetails>
+              <CardDetails>
+                <DetailsText>このポートフォリオサイトです。<br />動的機能はないですがstyled-componentsを使用しています。</DetailsText>
+              </CardDetails>
             </CardSide>
             <CardSide className="back back_3">
               <CardCta>
@@ -135,7 +138,7 @@ const Project = () => {
                     target="_blank"
                     rel="noreferrer noopener"
                   >
-                    アプリへ移動
+                    <Span>アプリへ移動</Span>
                   </ProjectLink>
                 </LinkBox>
                 <LinkBox>

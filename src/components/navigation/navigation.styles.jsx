@@ -12,11 +12,15 @@ export const Label = styled.label`
   width: 4rem;
   position: fixed;
   top: 3rem;
-  right: 2rem;
+  right: 3rem;
   border-radius: 50%;
   z-index: 2000;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.5);
   text-align: center;
+  @media screen and (max-width: 800px) {
+  top: 0.7rem;
+  right: 0.7rem;
+  }
 `;
 
 export const Icon = styled.span`
@@ -53,13 +57,17 @@ export const Background = styled.div`
   border-radius: 50%;
   position: fixed;
   top: 3.5rem;
-  right: 2.5rem;
+  right: 4rem;
   background-image: radial-gradient(
     ${Colors.TERTIARY_LIGHT},
     ${Colors.TERTIARY_DARK}
   );
   z-index: 1000;
   transition: transform 0.7s cubic-bezier(0.85, 0, 0, 07, 1);
+  @media screen and (max-width: 800px) {
+  top: 1rem;
+  right: 1rem;
+  }
 `;
 
 export const Nav = styled.nav`
@@ -142,5 +150,10 @@ export const NavigationContainer = styled.div`
     top: 0;
     transform: rotate(-135deg);
   }
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 
 `;
