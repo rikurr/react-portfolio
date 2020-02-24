@@ -1,5 +1,7 @@
 import styled, { keyframes } from "styled-components";
 
+import Colors from "../shared/color";
+
 const moveInLeft = keyframes`
   0% {
     opacity: 0;
@@ -34,13 +36,13 @@ const moveInRight = keyframes`
 
 export const TextContainer = styled.div`
   position: absolute;
-  top: 30%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
 `;
 
 export const HeaderPrimary = styled.h1`
-  color: black;
+  color: ${Colors.BLACK};
   text-transform: uppercase;
   backface-visibility: hidden;
 `;

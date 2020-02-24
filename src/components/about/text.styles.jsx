@@ -1,26 +1,29 @@
 import styled, { css } from "styled-components";
 
-import img from "../../img/imgheader.jpeg";
+import Colors from "../shared/color";
+
+import img from "../../img/riku.jpg";
+
 
 export const TextContainer = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
   padding: 4rem;
-`;
+  `;
 
-export const TextBox = styled.p`
-  padding: 15rem 0;
-  width: 75%;
-  margin: 0 auto;
-  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.2);
-  background-color: rgba(255, 255, 255, .6);
-  border-radius: 3px;
-  padding: 5rem;
-  padding-left: 9rem;
-  font-size: 1.2rem;
-  transform: skewX(-12deg);
-`;
+  export const TextBox = styled.p`
+    padding: 15rem 0;
+    width: 75%;
+    margin: 0 auto;
+    box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, .6);
+    border-radius: 3px;
+    padding: 5rem;
+    padding-left: 9rem;
+    font-size: 1.2rem;
+    transform: skewX(-12deg);
+  `;
 
 export const AboutShape = styled.figure`
   width: 15rem;
@@ -49,10 +52,12 @@ const Hedding = css`
 `;
 
 export const HeddingTitle = styled.h4`
+  color: ${Colors.BLACK};
   ${Hedding}
 `;
 
 export const HeddingSub = styled.p`
+  color: ${Colors.BLACK};
   ${Hedding}
   font-size: 1.2rem;
 `;

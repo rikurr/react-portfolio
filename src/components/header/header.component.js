@@ -7,7 +7,7 @@ import {
   HeaderSub,
   TextContainer
 } from "./header-text.container";
-import { MainLink } from "../custom/cutom-link.style";
+
 
 const Header = () => {
   return (
@@ -17,7 +17,6 @@ const Header = () => {
           <HeaderTitle>WELCOME TO</HeaderTitle>
           <HeaderSub> RIKU OOYA'S PORTFOLIO</HeaderSub>
         </HeaderPrimary>
-        <MainLink href="#">Get in github</MainLink>
       </TextContainer>
     </HeaderContainer>
   );

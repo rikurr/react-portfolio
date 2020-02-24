@@ -1,6 +1,6 @@
 import React from "react";
 
-import { AboutContainer, AboutTextStyle } from "./about.styles";
+import { AboutContainer } from "./about.styles";
 import {
   TextContainer,
   TextBox,
@@ -11,15 +11,14 @@ import {
   AboutImg
 } from "./text.styles";
 
-import { CutomTitle } from "../custom/custom-title";
+import { CustomTitle, TitleContainer } from "../shared/title";
 
 const About = () => {
   return (
     <AboutContainer>
-      <AboutTextStyle>
-        <CutomTitle>About me</CutomTitle>
-      </AboutTextStyle>
-
+      <TitleContainer>
+        <CustomTitle>About me</CustomTitle>
+      </TitleContainer>
       <TextContainer>
         <TextBox>
           <AboutShape>

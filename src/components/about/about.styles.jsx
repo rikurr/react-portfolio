@@ -1,15 +1,10 @@
 import styled from "styled-components";
 
+import Colors from "../shared/color";
+
 export const AboutContainer = styled.div`
-  background-color: #f7f7f7;
-  padding: 25rem 0;
+  background-color: ${Colors.GREY_LIGHT};
+  padding: 25rem 0 10rem 0;
   margin-top: -20vh;
 `;
 
-export const AboutTextStyle = styled.div`
-  display: flex;
-  text-align: center;
-  flex-wrap: wrap;
-  flex-direction: column;
-  margin-bottom: 8rem;
-`;
