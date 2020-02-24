@@ -11,7 +11,7 @@ export const CustomTitle = styled.h2`
   font-size: 3.5rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-image: ${Colors.BLUE_LINE};
+  background-image: ${Colors.GREEN_LINE};
   display: inline-block;
   -webkit-background-clip: text;
   color: transparent;

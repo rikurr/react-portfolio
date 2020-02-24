@@ -78,7 +78,7 @@ const Project = () => {
               <CardDetails>
                 <DetailsText>
                   ファッション系ECサイトです。
-                  FireBaseによるuser登録機能Stripeによる決済機能を使用できます。
+                  FireBaseによるuser登録機能とRedux-Sagaによる非同期処理を実装しています。
                 </DetailsText>
               </CardDetails>
             </CardSide>
@@ -120,7 +120,7 @@ const Project = () => {
               <CardPicture className="CardPicture__3"></CardPicture>
               <CardHeadding>ポートフォリオサイト</CardHeadding>
               <CardDetails>
-                <DetailsText>このポートフォリオサイトです。<br />動的機能はないですがstyled-componentsを使用しています。</DetailsText>
+                <DetailsText>このポートフォリオサイトです。<br />Reactのstyled-componentsを使用しています。</DetailsText>
               </CardDetails>
             </CardSide>
             <CardSide className="back back_3">

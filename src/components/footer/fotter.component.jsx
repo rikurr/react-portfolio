@@ -22,13 +22,6 @@ const Footer = () => {
               rel="noreferrer noopener"
             >GitHub</Link>
           </ListItem>
-          <ListItem>
-            <Link
-              href="https://react-crwn.herokuapp.com/"
-              target="_blank"
-              rel="noreferrer noopener"
-            >Twitter</Link>
-          </ListItem>
         </Lists>
       </FooterNavigation>
       <CopyRightContainer>

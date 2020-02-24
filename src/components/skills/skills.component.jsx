@@ -24,6 +24,7 @@ const Skills = () => {
       </TitleContainer>
       <BoxContainer>
         <SkillsBox>
+          <span>言語</span>
           <Icon src={language} alt="Language" />
           <ListContainer>
             <List>Html5</List>
@@ -33,6 +34,7 @@ const Skills = () => {
           </ListContainer>
         </SkillsBox>
         <SkillsBox>
+          <span>ライブラリ</span>
           <Icon src={library} alt="Library" />
           <ListContainer>
             <List>React</List>
@@ -41,6 +43,7 @@ const Skills = () => {
           </ListContainer>
         </SkillsBox>
         <SkillsBox>
+          <span>ツール</span>
           <Icon src={tools} alt="Tools" />
           <ListContainer>
             <List>Git</List>
@@ -49,6 +52,7 @@ const Skills = () => {
           </ListContainer>
         </SkillsBox>
         <SkillsBox>
+          <span>その他</span>
           <Icon src={heart} alt="Heart" />
           <ListContainer>
             <List>Node.js</List>
