@@ -10,6 +10,6 @@ export const AboutContainer = styled.div`
   flex-direction: column;
   align-items: center;
   @media screen and (max-width: 800px) {
-  padding: 15rem 0;
+  padding: 10rem 0;
   }
 `;

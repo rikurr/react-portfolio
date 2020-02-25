@@ -18,7 +18,7 @@ import library from "../../assets/Orion_chats.svg"
 
 const Skills = () => {
   return (
-    <SkillsContainer>
+    <SkillsContainer >
       <TitleContainer>
         <CustomTitle>Skills</CustomTitle>
       </TitleContainer>

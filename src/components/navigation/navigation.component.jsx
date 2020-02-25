@@ -21,30 +21,37 @@ const Navigation = () => {
       <Background>&nbsp;</Background>
       <Nav>
         <List>
-          <ListItems><NavLink
-            href="#"
-            target="_blank"
-            rel="noreferrer noopener"
-          >Top</NavLink></ListItems>
-          <ListItems><NavLink
-            href="#"
-            target="_blank"
-            rel="noreferrer noopener"
-          >About Me</NavLink></ListItems>
-          <ListItems><NavLink
-            href="#"
-            target="_blank"
-            rel="noreferrer noopener"
-          >Project</NavLink></ListItems>
-          <ListItems><NavLink
-            href="#"
-            target="_blank"
-            rel="noreferrer noopener"
-          >Skills</NavLink></ListItems>
+          <ListItems>
+            <NavLink
+              href="https://github.com/riku0329/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              GitHub
+            </NavLink>
+          </ListItems>
+          <ListItems>
+            <NavLink
+              href="https://twitter.com/r3csf"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Twitter
+            </NavLink>
+          </ListItems>
+          <ListItems>
+            <NavLink
+              href="https://react-crwn.herokuapp.com/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Project
+            </NavLink>
+          </ListItems>
         </List>
       </Nav>
-      </NavigationContainer>
-    );
-  };
+    </NavigationContainer>
+  );
+};
 
-  export default Navigation;
+export default Navigation;

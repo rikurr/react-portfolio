@@ -101,7 +101,6 @@ export const NavLink = styled.a`
   font-weight: 300;
   color: ${Colors.WHITE};
   text-decoration: none;
-  text-transform: uppercase;
   background-image: linear-gradient(
     120deg,
     transparent 0%,
