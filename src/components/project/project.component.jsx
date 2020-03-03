@@ -119,7 +119,7 @@ const Project = () => {
               <CardPicture className="CardPicture__3"></CardPicture>
               <CardHeadding>ポートフォリオサイト</CardHeadding>
               <CardDetails>
-                <DetailsText>このポートフォリオサイトです。<br />Reactのstyled-componentsを使用しています。</DetailsText>
+                <DetailsText>このポートフォリオサイトです。<br />Reacthooksとstyled-componentsを使用しています。</DetailsText>
               </CardDetails>
             </CardSide>
             <CardSide className="back back_3">
