@@ -8,6 +8,8 @@ import {
   TextContainer
 } from "./header-text.container";
 
+import Usage from '../animation-button/animation-button.component'
+
 
 const Header = () => {
   return (
@@ -16,6 +18,7 @@ const Header = () => {
         <HeaderPrimary>
           <HeaderTitle>WELCOME TO</HeaderTitle>
           <HeaderSub> RIKU OOYA'S PORTFOLIO</HeaderSub>
+          <Usage />
         </HeaderPrimary>
       </TextContainer>
     </HeaderContainer>

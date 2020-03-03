@@ -35,7 +35,7 @@ const Project = () => {
           <Card>
             <CardSide className="front">
               <CardPicture className="CardPicture__1"></CardPicture>
-              <CardHeadding>お天気アプリ</CardHeadding>
+              <CardHeadding>ニュースアプリ</CardHeadding>
               <CardDetails></CardDetails>
             </CardSide>
             <CardSide className="back back_1">
@@ -43,9 +43,8 @@ const Project = () => {
                 <ListsBox>
                   <Lists>
                     <ListsItems>React</ListsItems>
-                    <ListsItems>Redux-saga</ListsItems>
-                    <ListsItems>FireBase</ListsItems>
-                    <ListsItems>Node.js</ListsItems>
+                    <ListsItems>Hooks</ListsItems>
+                    <ListsItems>Css3</ListsItems>
                   </Lists>
                 </ListsBox>
                 <LinkBox>
@@ -129,7 +128,8 @@ const Project = () => {
                   <Lists>
                     <ListsItems>React</ListsItems>
                     <ListsItems>Styled-Components</ListsItems>
-                    <ListsItems>Css3</ListsItems>
+                    <ListsItems>Hooks</ListsItems>
+                    <ListsItems>mo-js</ListsItems>
                   </Lists>
                 </ListsBox>
                 <LinkBox>

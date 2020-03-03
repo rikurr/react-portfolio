@@ -2442,6 +2442,25 @@ amdefine@>=0.0.4:
   resolved "https://registry.yarnpkg.com/amdefine/-/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
   integrity sha1-SlKCrBZHKek2Gbz9OtFR+BfOkfU=
 
+annois@0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/annois/-/annois-0.2.0.tgz#4d76b61a2c6f8a39d1269617e93b33a8c16532ce"
+  integrity sha1-TXa2GixvijnRJpYX6TszqMFlMs4=
+
+annotate@0.6.7:
+  version "0.6.7"
+  resolved "https://registry.yarnpkg.com/annotate/-/annotate-0.6.7.tgz#0f9eedefb38dec706ad4226081f9f4772860b575"
+  integrity sha1-D57t77ON7HBq1CJggfn0dyhgtXU=
+  dependencies:
+    is-js "== 0.1.1"
+
+"annotate@== 0.6.2":
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/annotate/-/annotate-0.6.2.tgz#11665f6fe2a9ec2a49f0a2a9baa8efc8d5c0a2cc"
+  integrity sha1-EWZfb+Kp7CpJ8KKpuqjvyNXAosw=
+  dependencies:
+    is-js "== 0.1.1"
+
 ansi-colors@^3.0.0:
   version "3.2.4"
   resolved "https://registry.yarnpkg.com/ansi-colors/-/ansi-colors-3.2.4.tgz#e3a3da4bfbae6c86a9c285625de124a234026fbf"
@@ -2903,7 +2922,7 @@ babel-preset-react-app@^9.1.1:
     babel-plugin-macros "2.8.0"
     babel-plugin-transform-react-remove-prop-types "0.4.24"
 
-babel-runtime@^6.26.0:
+babel-runtime@^6.26.0, babel-runtime@^6.5.0:
   version "6.26.0"
   resolved "https://registry.yarnpkg.com/babel-runtime/-/babel-runtime-6.26.0.tgz#965c7058668e82b55d7bfe04ff2337bc8b5647fe"
   integrity sha1-llxwWGaOgrVde/4E/yM3vItWR/4=
@@ -3610,15 +3629,15 @@ combined-stream@^1.0.6, combined-stream@~1.0.6:
   dependencies:
     delayed-stream "~1.0.0"
 
+"commander@>= 0.5.2", commander@^4.0.0:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-4.1.1.tgz#9fd602bd936294e9e9ef46a3f4d6964044b18068"
+  integrity sha512-NOKm8xhkzAjzFx8B2v5OAHT+u5pRQc2UCa2Vq9jYL/31o2wi9mxBA7LIFs3sV5VSC49z6pEhfbMULvShKj26WA==
+
 commander@^2.11.0, commander@^2.20.0, commander@~2.20.3:
   version "2.20.3"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
   integrity sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
-
-commander@^4.0.0:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-4.1.1.tgz#9fd602bd936294e9e9ef46a3f4d6964044b18068"
-  integrity sha512-NOKm8xhkzAjzFx8B2v5OAHT+u5pRQc2UCa2Vq9jYL/31o2wi9mxBA7LIFs3sV5VSC49z6pEhfbMULvShKj26WA==
 
 common-tags@^1.8.0:
   version "1.8.0"
@@ -5412,6 +5431,22 @@ functional-red-black-tree@^1.0.1:
   resolved "https://registry.yarnpkg.com/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
   integrity sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
 
+funkit@0.7.7, "funkit@== 0.7.7":
+  version "0.7.7"
+  resolved "https://registry.yarnpkg.com/funkit/-/funkit-0.7.7.tgz#22f4a2e77f7c3aa39446d7405ca8c1a8637cb733"
+  integrity sha1-IvSi5398OqOURtdAXKjBqGN8tzM=
+  dependencies:
+    annotate "== 0.6.2"
+    is-js "== 0.1.1"
+
+"funkit@== 0.3.2":
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/funkit/-/funkit-0.3.2.tgz#c25cb3cb03fa0c15ea2e54343c2c40b314607a7c"
+  integrity sha1-wlyzywP6DBXqLlQ0PCxAsxRgenw=
+  dependencies:
+    generators.js ">= 0.1.9"
+    suite.js ">= 0.1.1"
+
 gauge@~2.7.3:
   version "2.7.4"
   resolved "https://registry.yarnpkg.com/gauge/-/gauge-2.7.4.tgz#2c03405c7538c39d7eb37b317022e325fb018bf7"
@@ -5432,6 +5467,16 @@ gaze@^1.0.0:
   integrity sha512-BRdNm8hbWzFzWHERTrejLqwHDfS4GibPoq5wjTPIoJHoBtKGPg3xAFfxmM+9ztbXelxcf2hwQcaz1PtmFeue8g==
   dependencies:
     globule "^1.0.0"
+
+"generators.js@>= 0.1.9":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/generators.js/-/generators.js-0.5.0.tgz#abc51247f174eb9e1da9502c1f7866aae6aeef84"
+  integrity sha1-q8USR/F0654dqVAsH3hmquau74Q=
+  dependencies:
+    annois "0.2.0"
+    annotate "0.6.7"
+    funkit "0.7.7"
+    require-dir "0.1.0"
 
 gensync@^1.0.0-beta.1:
   version "1.0.0-beta.1"
@@ -6114,6 +6159,14 @@ invert-kv@^2.0.0:
   resolved "https://registry.yarnpkg.com/invert-kv/-/invert-kv-2.0.0.tgz#7393f5afa59ec9ff5f67a27620d11c226e3eec02"
   integrity sha512-wPVv/y/QQ/Uiirj/vh3oP+1Ww+AWehmi1g5fFWGPF6IpCBCDVrhgHRMvrLfdYcwDh3QJbGXDW4JAuzxElLSqKA==
 
+"ioscript.js@== 0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/ioscript.js/-/ioscript.js-0.2.0.tgz#e63dda77b6925767034c1d967f727201262b9165"
+  integrity sha1-5j3ad7aSV2cDTB2Wf3JyASYrkWU=
+  dependencies:
+    commander ">= 0.5.2"
+    funkit "== 0.3.2"
+
 ip-regex@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/ip-regex/-/ip-regex-2.1.0.tgz#fa78bf5d2e6913c911ce9f819ee5146bb6d844e9"
@@ -6320,6 +6373,11 @@ is-glob@^4.0.0, is-glob@^4.0.1, is-glob@~4.0.1:
   integrity sha512-5G0tKtBTFImOqDnLB2hG6Bp2qcKEFduo4tZu9MT/H6NQv/ghhy30o55ufafxJ/LdH79LLs2Kfrn85TLKyA7BUg==
   dependencies:
     is-extglob "^2.1.1"
+
+"is-js@== 0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/is-js/-/is-js-0.1.1.tgz#dfe498e487cd715bf6ce3ccdabf3c01eec37dc2c"
+  integrity sha1-3+SY5IfNcVv2zjzNq/PAHuw33Cw=
 
 is-number@^3.0.0:
   version "3.0.0"
@@ -7699,6 +7757,21 @@ mkdirp@0.5.1, "mkdirp@>=0.5 0", mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.1:
   integrity sha1-MAV0OOrGz3+MR2fzhkjWaX11yQM=
   dependencies:
     minimist "0.0.8"
+
+mo-js@^0.288.2:
+  version "0.288.2"
+  resolved "https://registry.yarnpkg.com/mo-js/-/mo-js-0.288.2.tgz#662c803d18a110cf7e422d569efcdea04880592e"
+  integrity sha1-ZiyAPRihEM9+Qi1WnvzeoEiAWS4=
+  dependencies:
+    babel-runtime "^6.5.0"
+
+mojs@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/mojs/-/mojs-0.2.0.tgz#7a95d0804e6431738f61d7b45cd99be8fcb2256b"
+  integrity sha1-epXQgE5kMXOPYde0XNmb6PyyJWs=
+  dependencies:
+    ioscript.js "== 0.2.0"
+    suite.js ">= 0.1.1"
 
 move-concurrently@^1.0.1:
   version "1.0.1"
@@ -10033,6 +10106,11 @@ request@^2.87.0, request@^2.88.0:
     tunnel-agent "^0.6.0"
     uuid "^3.3.2"
 
+require-dir@0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/require-dir/-/require-dir-0.1.0.tgz#81e01e299faf5b74c34b6594f8e5add5985ddec5"
+  integrity sha1-geAeKZ+vW3TDS2WU+OWt1Zhd3sU=
+
 require-directory@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/require-directory/-/require-directory-2.1.1.tgz#8c64ad5fd30dab1c976e2344ffe7f792a6a6df42"
@@ -11029,6 +11107,14 @@ stylehacks@^4.0.0:
     browserslist "^4.0.0"
     postcss "^7.0.0"
     postcss-selector-parser "^3.0.0"
+
+"suite.js@>= 0.1.1":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/suite.js/-/suite.js-0.6.1.tgz#8dc58225924dbe03e2add317577cfb78ef82b464"
+  integrity sha1-jcWCJZJNvgPirdMXV3z7eO+CtGQ=
+  dependencies:
+    funkit "== 0.7.7"
+    is-js "== 0.1.1"
 
 supports-color@^2.0.0:
   version "2.0.0"
