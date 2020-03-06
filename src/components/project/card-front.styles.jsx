@@ -28,6 +28,6 @@ export const CardDetails = styled.div`
 `;
 
 export const DetailsText = styled.h4`
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: ${Colors.BLACK};
 `;

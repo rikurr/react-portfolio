@@ -35,8 +35,8 @@ const Project = () => {
           <Card>
             <CardSide className="front">
               <CardPicture className="CardPicture__1"></CardPicture>
-              <CardHeadding>ニュースアプリ</CardHeadding>
-              <CardDetails></CardDetails>
+              <CardHeadding>News API アプリ</CardHeadding>
+              <CardDetails><DetailsText>Hacker APIを使用したニュース一覧アプリです</DetailsText></CardDetails>
             </CardSide>
             <CardSide className="back back_1">
               <CardCta>
@@ -49,7 +49,7 @@ const Project = () => {
                 </ListsBox>
                 <LinkBox>
                   <ProjectLink
-                    href="https://react-crwn.herokuapp.com/"
+                    href="https://hn-news-rr.herokuapp.com/"
                     target="_blank"
                     rel="noreferrer noopener"
                   >
@@ -58,7 +58,7 @@ const Project = () => {
                 </LinkBox>
                 <LinkBox>
                   <Link
-                    href="https://react-crwn.herokuapp.com/"
+                    href="https://github.com/riku0329/HN-react-app"
                     target="_blank"
                     rel="noreferrer noopener"
                   >
@@ -76,8 +76,8 @@ const Project = () => {
               <CardHeadding>ECアプリ</CardHeadding>
               <CardDetails>
                 <DetailsText>
-                  ファッション系ECサイトです。
-                  FireBaseによるuser登録機能とRedux-Sagaによる非同期処理を実装しています。
+                  ファッション系ECサイトです。<br />
+                  FireBaseによるuser登録機能とRedux-Sagaによるショップデータの非同期処理,Supenseによるアプリのパフォーマンス向上を実装しています。
                 </DetailsText>
               </CardDetails>
             </CardSide>
