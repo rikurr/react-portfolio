@@ -45,6 +45,7 @@ const Project = () => {
                     <ListsItems>React</ListsItems>
                     <ListsItems>Hooks</ListsItems>
                     <ListsItems>Css3</ListsItems>
+                    <ListsItems>Styled-Components</ListsItems>
                   </Lists>
                 </ListsBox>
                 <LinkBox>

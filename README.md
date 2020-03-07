@@ -2,7 +2,7 @@
 
 ## 概要
 未経験から転職に向けポートフォリオサイトを作成しました。
-Demoサイトhttps://git.heroku.com/riku-portfolio.git
+Demoサイトhttps://riku-portfolio.herokuapp.com/
 
 
 ## 使用技術
