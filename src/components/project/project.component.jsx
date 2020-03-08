@@ -36,7 +36,9 @@ const Project = () => {
             <CardSide className="front">
               <CardPicture className="CardPicture__1"></CardPicture>
               <CardHeadding>News API アプリ</CardHeadding>
-              <CardDetails><DetailsText>Hacker APIを使用したニュース一覧アプリです</DetailsText></CardDetails>
+              <CardDetails>
+                <DetailsText>Hacker APIを使用したニュース一覧アプリです</DetailsText>
+              </CardDetails>
             </CardSide>
             <CardSide className="back back_1">
               <CardCta>

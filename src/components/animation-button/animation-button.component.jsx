@@ -11,6 +11,7 @@ import "./index.css";
 const HeartAnimationContainer = styled.div`
   margin-top: 2rem;
   display: flex;
+  flex-direction: column;
   height: 100%;
   -webkit-box-pack: center;
   justify-content: center;
@@ -19,9 +20,14 @@ const HeartAnimationContainer = styled.div`
   min-height: 25vh;
 `;
 
+const Count = styled.div`
+  font-size: 1rem;
+  padding-top: 1rem;
+`;
+
 const initialState = {
   count: 0,
-  countTotal: 30,
+  countTotal: 9975,
   isClicked: false
 };
 
@@ -148,6 +154,9 @@ const HeartAnimation = () => {
         <HeartCount count={count} />
         <CountTotal countTotal={countTotal} />
       </button>
+      {!!count && (
+        <Count>{`Thanks for watching ${count} `}</Count>
+      )}
     </HeartAnimationContainer>
   );
 };

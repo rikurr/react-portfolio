@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 import Colors from "../shared/color";
 
-import weatherImg from "../../img/weather.jpg";
+import newsImg from "../../img/news.jpg";
 import ecImg from "../../img/ec-shop.jpg";
 import portfolioImg from "../../img/portfolio.jpeg";
 
@@ -60,7 +60,7 @@ export const Card = styled.div`
         ${Colors.TERTIARY_LIGHT},
         ${Colors.TERTIARY_DARK}
       ),
-      url(${weatherImg});
+      url(${newsImg});
   }
 
   .CardPicture__2 {
